@@ -1,3 +1,4 @@
+//26. Remove Duplicates from Sorted Array
 var removeDuplicates = function(nums) {
     
     let unique = Array.from(new Set(nums));

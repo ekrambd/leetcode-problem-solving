@@ -1,0 +1,139 @@
+Array & String Problems for Startups / Mid-Level Interviews
+
+Array Problems (Easy → Medium)
+
+1. Two Sum – #1 (Easy)
+   Find indices of two numbers that sum up to a target.
+   Skills: HashMap
+   Practice Order: Learn HashMap → Two Sum → Other HashMap problems
+
+2. Remove Duplicates from Sorted Array – #26 (Easy)
+   Remove duplicates in-place from a sorted array.
+   Skills: Two Pointers
+   Practice Order: Two pointer beginner problems → Remove Duplicates
+
+3. Best Time to Buy and Sell Stock – #121 (Easy)
+   Find the maximum profit from buying and selling a stock once.
+   Skills: Array Traversal, Max/Min Tracking
+   Practice Order: Easy array traversal → Stock problems
+
+4. Contains Duplicate – #217 (Easy)
+   Check if an array contains any duplicates.
+   Skills: HashSet / HashMap
+   Practice Order: Learn HashSet → Contains Duplicate → Intersection problems
+
+5. Intersection of Two Arrays II – #350 (Easy)
+   Return intersection of two arrays (count duplicates).
+   Skills: HashMap
+   Practice Order: Contains Duplicate → Intersection → Union problems
+
+6. Move Zeroes – #283 (Easy)
+   Move all zeros to the end of the array in-place.
+   Skills: Two Pointers
+   Practice Order: Two pointer basics → Move Zeroes → Partition problems
+
+7. Plus One – #66 (Easy)
+   Add one to a number represented as an array of digits.
+   Skills: Array Traversal, Carry Handling
+   Practice Order: Easy array manipulation → Plus One
+
+8. Valid Sudoku – #36 (Medium)
+   Check if a partially filled Sudoku board is valid.
+   Skills: 2D Array, HashSet
+   Practice Order: 2D array basics → HashSet → Sudoku
+
+9. Merge Intervals – #56 (Medium)
+   Merge overlapping intervals in a 2D array.
+   Skills: Sorting, Array Traversal
+   Practice Order: Sort + traversal → Merge Intervals → Insert Interval
+
+10. Rotate Array – #189 (Medium)
+    Rotate an array to the right by k steps.
+    Skills: Array Manipulation, Reverse Array
+    Practice Order: Reverse array → Rotate array → Other rotation problems
+
+String Problems (Easy → Medium)
+
+11. Reverse String – #344 (Easy)
+    Reverse an array of characters in-place.
+    Skills: Two Pointers
+    Practice Order: Two pointer basics → Reverse String
+
+12. First Unique Character in a String – #387 (Easy)
+    Return the first non-repeating character index.
+    Skills: HashMap
+    Practice Order: HashMap beginner → First Unique Character
+
+13. Valid Anagram – #242 (Easy)
+    Check if two strings are anagrams.
+    Skills: HashMap / Sorting
+    Practice Order: HashMap → Sorting → Anagram problems
+
+14. Implement strStr() – #28 (Easy)
+    Return the index of the first occurrence of a substring.
+    Skills: String Traversal
+    Practice Order: String basics → strStr()
+
+15. Longest Common Prefix – #14 (Easy)
+    Find the longest common prefix among an array of strings.
+    Skills: String Traversal
+    Practice Order: String basics → Prefix problems
+
+16. Valid Parentheses – #20 (Easy)
+    Check if a string containing brackets is valid.
+    Skills: Stack
+    Practice Order: Stack basics → Valid Parentheses → Other stack problems
+
+17. Reverse Words in a String III – #557 (Easy)
+    Reverse characters of each word in a string.
+    Skills: String Traversal, Two Pointers
+    Practice Order: String traversal → Two pointer → Reverse Words
+
+18. Group Anagrams – #49 (Medium)
+    Group strings that are anagrams of each other.
+    Skills: HashMap, Sorting
+    Practice Order: Valid Anagram → Group Anagrams
+
+19. Longest Substring Without Repeating Characters – #3 (Medium)
+    Find the length of the longest substring with unique characters.
+    Skills: Sliding Window, HashSet
+    Practice Order: Sliding window basics → Longest Substring
+
+20. String to Integer (atoi) – #8 (Medium)
+    Implement a function to convert a string to an integer.
+    Skills: String Parsing
+    Practice Order: String traversal → atoi → Edge case handling
+
+Extra 5 Startup-Focused Problems
+
+21. Subarray Sum Equals K – #560 (Medium)
+    Find the total number of continuous subarrays whose sum equals to k.
+    Skills: HashMap, Prefix Sum
+    Practice Order: Prefix sum → Sliding window → Subarray Sum
+
+22. Majority Element – #169 (Easy)
+    Find the element that appears more than ⌊n / 2⌋ times in an array.
+    Skills: HashMap, Boyer-Moore Voting Algorithm
+    Practice Order: HashMap beginner → Majority Element
+
+23. Product of Array Except Self – #238 (Medium)
+    Return an array where each element is the product of all others except itself.
+    Skills: Prefix & Suffix Product
+    Practice Order: Array prefix → Product Except Self
+
+24. Valid Palindrome II – #680 (Easy)
+    Check if a string can become a palindrome by deleting at most one character.
+    Skills: Two Pointers
+    Practice Order: Two pointer → Palindrome → Valid Palindrome II
+
+25. Find All Numbers Disappeared in an Array – #448 (Easy)
+    Find all numbers from 1 to n that do not appear in the array.
+    Skills: Array Indexing / HashMap
+    Practice Order: Array basics → Missing Numbers → Index tricks
+
+-------------------------------
+Difficulty Summary:
+
+Easy: 17 problems
+Medium: 8 problems
+Total: 25 problems
