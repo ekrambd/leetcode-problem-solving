@@ -1,10 +1,10 @@
 //66. Plus One
 var plusOne = function(digits) {
-	let myStr="";
+	let str="";
 	for(let i = 0; i < digits.length; i++){
-		myStr+=digits[i];
+		str+=digits[i];
 	}
-	let num = String(BigInt(myStr)+1n);
+	let num = String(BigInt(str)+1n);
 	let result = [];
 	for(let i = 0; i < num.length; i++){
 		result.push(parseInt(num[i]));
@@ -13,4 +13,4 @@ var plusOne = function(digits) {
 };
 
 console.log(plusOne([1,2,3]));
-console.log(plusOne([4,3,2,1]));
+//console.log(plusOne([4,3,2,1]));

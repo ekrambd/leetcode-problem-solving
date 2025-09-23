@@ -17,7 +17,6 @@ var twoSum = function(nums, target) {
 			return this.map.has(key);
 		}
 	}
-
 	let map = new HashMap();
 	for(let i = 0; i < nums.length; i++){
 		let comp = target - nums[i];

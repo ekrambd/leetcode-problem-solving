@@ -12,6 +12,7 @@ var containsDuplicate = function(nums) {
 			return this.map.has(key)?this.map.get(key):null;
 		}
 	}
+
 	let map = new HashMap();
 	for(let i = 0; i < nums.length; i++){
 		let count = map.get(nums[i]);
@@ -29,4 +30,4 @@ var containsDuplicate = function(nums) {
 	return false;
 };
 
-console.log(containsDuplicate([1,2,3,1]));
+console.log(containsDuplicate([1,2,3,4]));
