@@ -1,5 +1,5 @@
 /*
- 1. Two Sum
+ 1. Two Sum --
  leetcode url: https://leetcode.com/problems/two-sum/description/
 */
 var twoSum = function(nums, target) {
